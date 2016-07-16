@@ -1,4 +1,15 @@
 AggregatorApp::Application.routes.draw do
+  get "scouting_results/index"
+
+  get "spotify/index"
+
+  get "soundcloud/index"
+
+  # post "soundclound" tell it which controller and which action 
+
+
+  root :to => 'soundcloud#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

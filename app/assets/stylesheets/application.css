@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  font-family: tahoma;
+  background-color: #ebfafa;
+}
+
+.header {
+  text-align: center;
+}
+
+.header_links {
+  text-align: center;
+}
